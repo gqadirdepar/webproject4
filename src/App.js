@@ -17,6 +17,12 @@ function App() {
      >
 Click button 
      </button>
+     <button onClick={
+       ()=>setMorning(!isMorning)
+     }
+     >
+Update Day
+     </button>
     </div>
   );
 }
