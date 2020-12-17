@@ -12,7 +12,7 @@ function App() {
        ()=>setcount(2)
      }
      >
-My button count
+Click button 
      </button>
     </div>
   );
