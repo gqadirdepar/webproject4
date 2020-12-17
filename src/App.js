@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-<Message />
+<Message counter={count} />
 
      <button onClick={
        ()=>setcount(count+1)
