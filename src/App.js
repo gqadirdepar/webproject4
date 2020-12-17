@@ -4,9 +4,11 @@ import './App.css';
 
 function App() {
   let [count , setcount]=useState(1)
+  let [isMorning , setMorning]= useState(true)
 
   return (
     <div>
+      <h2> Day Time is : {isMorning ? 'Good Morning' : 'Good Night' }</h2>
 <Message counter={count} />
 
      <button onClick={
