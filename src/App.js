@@ -9,7 +9,7 @@ function App() {
     <div>
      <h3>Button pressed {count}</h3>
      <button onClick={
-       ()=>setcount(2)
+       ()=>setcount(count+1)
      }
      >
 Click button 
