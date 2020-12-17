@@ -1,6 +1,5 @@
 import React ,{useState} from 'react';
-import {Message} from './message'
-
+import Message from './message.js';
 import './App.css';
 
 function App() {
